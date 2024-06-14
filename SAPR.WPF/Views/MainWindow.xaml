@@ -120,7 +120,7 @@
         </Canvas>
         <Button Command="{Binding AddSecondRectanglesCommand}" Content="Добавить доп" Width="100" Height="30" VerticalAlignment="Center" Margin="10" HorizontalAlignment="Right"/>
         <Button Command="{Binding AddMainRectangleCommand}" Content="Добавить основу" Width="100" Height="30" VerticalAlignment="Center" Margin="10" HorizontalAlignment="Left"/>
-        <Button Command="{Binding ResizeMainRectangleCommand}" Content="Очертить второстепенные прямоугольники" Grid.Column="1" Height="30" Width="250" HorizontalAlignment="Left"/>
+        <Button Command="{Binding ResizeMainRectangleCommand}" Content="Очертить второстепенные прямоугольники" Grid.Column="1" Height="30" Width="250" HorizontalAlignment="Left" Margin="20"/>
         <Button Command="{Binding ClearRectanglesCommand}" Content="Удалить прямоугольники" Grid.Column="1" Height="30" Width="250" HorizontalAlignment="Center"/>
     </Grid>
 </Window>
